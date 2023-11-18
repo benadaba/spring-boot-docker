@@ -5,8 +5,8 @@ metadata:
   name: springapp-configmap
 data:
   # Configuration values can be set as key-value properties
-  username: springapp
-  password: mongodb@123
+  username: devdb
+  password: devdb@123
 ---
 apiVersion: apps/v1
 kind: Deployment
